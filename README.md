@@ -54,3 +54,31 @@ OFAST MODE:
 ![WhatsApp Image 2024-06-28 at 19 59 54_5ce62c13](https://github.com/varshamano1404/internship/assets/175196469/bd1552ef-1f0a-4b72-a5dc-b173f8224411)
 
 ![WhatsApp Image 2024-06-28 at 20 00 26_2f4e424d](https://github.com/varshamano1404/internship/assets/175196469/fb38fc75-028f-4a7c-8bd6-4f29b374dd54)
+
+
+TASK-4
+
+RISC-V Instructions: Identify various RISC-V instruction type (R, I, S, B, U, J) and exact 32-bit instruction code in the instruction type format for below RISC-V instructions
+
+![image](https://github.com/varshamano1404/internship/assets/175196469/81f5ba7a-f9dd-437e-9ba2-ec52da01f57b)
+
+R-type Instruction:
+R-type is an operation without immediate. The immediate is the number that exists as an integer in the instructions. The 7 bits from 0 to 6 are opcode (operation code), used to identify the type of instruction. 
+Bits 7 to 11 are the index of the rd register.rs1 and rs2 arefunc7(7-bit), combined with opcode and fun3, this field describes what operation to perform. called source registers. In most cases, instructions need to read the values of the two source registers for operations.
+
+![image](https://github.com/varshamano1404/internship/assets/175196469/d3c66bdd-92d4-40ed-af46-08b0a05cd92f)
+
+
+I-type Instruction:
+I stands for immediate in I-type instructions, indicating that operations are executed using registers and immediate values and are not dependent on memory locations.
+The upper 12 bits of I-type is an immediate number.
+The opcode is different from other instruction formats because the corresponding specific operations are different, and other parts are very similar to R-type.
+
+![image](https://github.com/varshamano1404/internship/assets/175196469/08cc6567-bfd1-42cd-a891-ddf684fe5a7a)
+
+S-type Instruction
+S stands for "store" in S-type instructions, indicating that they are store-type instructions that aid in storing register values in memory. This type of command is mostly used for storing.
+The characteristic of S-type instruction is that there is no rd register.
+The immediate is divided into two parts, the first part is in bit 11-5, and the second part is in bit 4-0.
+
+![image](https://github.com/varshamano1404/internship/assets/175196469/169426ef-d2c5-4d2d-885b-ee1b9dbdf39c)
