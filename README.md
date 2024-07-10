@@ -15,3 +15,7 @@ FAST INSTRUCTIONS
 UBUNTU INSTALLATION
 
 ![ubuntu installation](https://github.com/varshamano1404/internship/assets/175196469/4ae8e4b9-5816-4616-8855-c2c890d25efb)
+
+TERMINAL
+
+![terminal](https://github.com/varshamano1404/internship/assets/175196469/7cdcb686-97a2-4719-8f34-309aa7b5d10c)
