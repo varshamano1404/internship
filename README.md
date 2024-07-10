@@ -82,3 +82,29 @@ The characteristic of S-type instruction is that there is no rd register.
 The immediate is divided into two parts, the first part is in bit 11-5, and the second part is in bit 4-0.
 
 ![image](https://github.com/varshamano1404/internship/assets/175196469/169426ef-d2c5-4d2d-885b-ee1b9dbdf39c)
+
+B-type Instruction
+B stands for branching in an instruction of the B-type, indicating that it is mostly used for branching under specific conditions.
+B-type instructions are mainly used as branch instructions, but they are conditional Branch. It means to decide whether to jump or not need to depend on whether the condition is valid.
+The instruction does not include rd register and funct7, but contains rs1, rs2, funct3 and immediate.
+The immediate is divided into two areas.
+
+![image](https://github.com/varshamano1404/internship/assets/175196469/23738246-7969-4b24-baf4-4cbfdb0d34ae)
+
+U-type Instruction
+U-type instructions are used to send immediate data into the target register. The letter U stands for Upper Immediate instructions.
+A 20-bit immediate is provided in the U-type instruction.
+The final operation result is related to the 20-bit immediate, and the result is written back to the rd register.
+There are no funct3, rs1, rs2, and funct7 in U-type.
+This type of instruction structure is very simple.
+
+![image](https://github.com/varshamano1404/internship/assets/175196469/06826b4e-0ae1-4a5f-9660-41c508d92a1e)
+
+J-type Instruction
+J stands for jump in J-type instruction, indicating that jump type instruction is implemented using this instruction format.
+The format of this instruction is very similar to U-type, it only have Rd register and immediate and opcode.
+
+![image](https://github.com/varshamano1404/internship/assets/175196469/226acd54-9cff-47ea-b91c-c5302b7951c2)
+
+
+![image](https://github.com/varshamano1404/internship/assets/175196469/af80c3e1-d659-4ded-a621-a87b76e8a8ba)
